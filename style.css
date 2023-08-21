@@ -1,0 +1,156 @@
+.hero-img{
+    min-height: 100vh;
+    min-width: 100%;
+    justify-content: end;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1178&q=80');
+    background-position: 0;
+    background-size: cover;
+}
+#penaltyText {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    z-index: 1001; 
+}
+#penaltyImage {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    animation: bounce 4s ease-in-out infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px);
+    }
+}
+
+
+#bonusAmount {
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(4, 222, 4);
+}
+
+#bonusText {
+    position: fixed;
+    top: 25%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(4, 222, 4);
+    text-shadow: 1px 1px 2px black;
+    z-index: 1001; 
+}
+#bonusImage {
+    position: fixed;
+    top: 25%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    animation: bounce 4s ease-in-out infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px);
+    }
+}
+
+
+#penaltyAmount {
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+}
+
+
+.moon-img {
+    border-radius: 14px;
+border: 10px;
+    height: 100%;
+    width: 100%;
+    
+    object-fit:contain;
+    object-position: center;
+}
+
+#planetSection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#planetImage {
+    width: 50%;
+    height: 50%;
+   
+}
+
+.glassCard{
+    /* From https://css.glass */
+background: rgba(124, 141, 136, 0.663);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(53, 50, 50, 0.24);
+width: 900px;
+
+}
+
+.glassCard2{
+    /* From https://css.glass */
+background: rgba(174, 11, 238, 0.484);
+border-radius: 6px;
+box-shadow: 0 4px 30px rgba(28, 90, 135, 0.474);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(53, 50, 50, 0.24);
+
+
+}
+
+.elevation-5{
+box-shadow: 2px 2px 5px;
+border: 5rem;
+border-color: blue;
+}
+
+button{
+    max-height: 75%;
+}
+
+.gameFont{
+   
+font-family: 'Rubik Moonrocks', cursive
+}
+
+.titleFont{
+    font-family: 'Audiowide', cursive;
+}
+
+#autoUpgradeProgressBar {
+    width: 80%;
+    height: 20px;
+}
+
+
